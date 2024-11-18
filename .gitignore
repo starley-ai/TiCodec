@@ -10,3 +10,6 @@ data/
 bkp/
 *.csv
 logs*/
+egs/TiCodec-24k-320d/nohup.out
+Lib_resources/KokoroSpeech/test.lst
+Lib_resources/KokoroSpeech/train.lst
