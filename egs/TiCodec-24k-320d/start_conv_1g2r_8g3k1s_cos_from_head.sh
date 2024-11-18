@@ -3,8 +3,8 @@ source path.sh
 set -e
 
 log_root="logs_conv_only/logs_convonly_Lib_1g2r_cos_from_head"
-input_training_file="../../Lib_resources/LibriTTS/train.lst"
-input_validation_file="../../Lib_resources/LibriTTS/dev-clean_part.lst"
+input_training_file="../../Lib_resources/KokoroSpeech/train.lst"
+input_validation_file="../../Lib_resources/KokoroSpeech/test.lst"
 
 # mode=debug
 mode=train
