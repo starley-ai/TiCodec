@@ -6,8 +6,8 @@ log_root="logs_conv_only/logs_convonly_Lib_1g1r_cos_from_head"
 input_training_file="../../Lib_resources/KokoroSpeech/train.lst"
 input_validation_file="../../Lib_resources/KokoroSpeech/test.lst"
 
-mode=debug
-# mode=train
+#mode=debug
+mode=train
 export CUDA_VISIBLE_DEVICES=0
 
 
