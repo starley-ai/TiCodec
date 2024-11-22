@@ -3,7 +3,7 @@ source path.sh
 
 # 1 baseline 1 group
 ckpt_name=logs_convonly_Lib_1g1r_cos_from_head
-ckpt=logs_conv_only/logs_convonly_Lib_1g1r_cos_from_head/g_00300000
+ckpt=logs_conv_only/logs_convonly_Lib_1g1r_cos_from_head/g_00315000
 # ckpt=logs_conv_only/logs_convonly_Lib_1g1r_cos_from_head/g_00250000
 echo checkpoint path: ${ckpt}
 output_root_dir=../Paper_Data/GEN
@@ -12,8 +12,8 @@ output=${output_root_dir}/${ckpt_name}
 
 # dir_list=('../Paper_Data/GT/LibriTTS' '../Paper_Data/GT/VCTK' '../Paper_Data/GT/AISHELL-3' '../Paper_Data/GT/Musdb' '../Paper_Data/GT/Audioset' )
 # outputdir=('/LibriTTS' '/VCTK' '/AISHELL-3' '/Musdb' '/Audioset' )  
-dir_list=('../Paper_Data/GT/LibriTTS')
-outputdir=('/LibriTTS')
+dir_list=('../Paper_Data/GT/KokoroSpeech')
+outputdir=('/KokoroSpeech')
 
 for item in "${dir_list[@]}"
 do
